@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 # Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
 prefer_datetime_locale:
@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: JY vlog                         # the main title
+title: JY devlog                         # the main title
 
 tagline: Front-End Developer   # it will display as the sub-title
 
@@ -32,15 +32,15 @@ description: >-                        # used by seo meta and the atom feed
 url: 'https://jy1475.github.io/'
 
 github:
-  username: github_username             # change to your github username
+  username: jy1475             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
 
-social:
+social: Juyo
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Kim JuYeol
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -83,7 +83,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/profile.jpg'
+avatar: '/assets/img/favicons/profile.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -105,7 +105,7 @@ comments:
     category_id:
     mapping:          # optional, default to 'pathname'
     input_position:   # optional, default to 'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    lang: ko             # optional, default to the value of `site.lang`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
